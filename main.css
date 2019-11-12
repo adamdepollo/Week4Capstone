@@ -1,0 +1,27 @@
+.addItem{
+  padding: 8px;
+  font-size: 10pt;
+  width: 70px;
+}
+#finalize {
+  padding: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 10pt;
+  width: 70px;
+}
+.quant {
+  width: 100px;
+  min: 0;
+  border: none;
+  padding: 5px;
+}
+#total{
+  display: none;
+}
+#saleTax{
+  display: none;
+}
+#subtotal{
+  justify-content: center;
+}

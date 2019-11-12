@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./main.css">
+  <title>pos</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-12 text-center">
+        <h4>welcome to the advanced fruit pos:</h4>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">item no.</th>
+            <th scope="col">name</th>
+            <th scope="col">price</th>
+            <th scope="col" colspan="2">quantity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td class="itemName"></td>
+            <td class="price"></td>
+            <td class="quant"><input min="0" type="number" value="0" class="form-control inpt" id="it1"></input></td>
+            <td scope="col"><button class="btn btn-outline-dark addItem" id="but1">add item</button></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td class="itemName"></td>
+            <td class="price"></td>
+            <td class="quant"><input min="0" type="number" value="0" class="form-control inpt" id="it2"></input></td>
+            <td scope="col"><button class="btn btn-outline-dark addItem" id="but2">add item</button></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td class="itemName"></td>
+            <td class="price"></td>
+            <td class="quant"><input min="0" type="number" value="0" class="form-control inpt" id="it3"></input></td>
+            <td scope="col"><button class="btn btn-outline-dark addItem" id="but3">add item</button></td>
+          </tr>
+          <tr>
+            <th scope="row" colspan="2" id="subtotal">subtotal:</th>
+            <td></td>
+            <td id="subTot">$0.00</td>
+            <td scope="col"><button class="btn btn-outline-dark" id="finalize">check out</button></td>
+          </tr>
+          <tr id="saleTax">
+            <th scope="row" colspan="2">sales tax:</th>
+            <td></td>
+            <td id="tax">$0.00</td>
+            <td scope="col"></td>
+          </tr>
+          <tr id="total">
+            <th scope="row" colspan="2">total:</th>
+            <td></td>
+            <td id="tot">$0.00</td>
+            <td scope="col"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./script.js">
+  </script>
+</body>

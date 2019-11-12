@@ -1,3 +1,6 @@
+ body {
+   font-family: "Century Gothic", "Century", sans-serif;
+ }
 .addItem {
   padding: 8px;
   font-size: 10pt;

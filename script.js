@@ -21,6 +21,8 @@ for (i = 0; i < menuItems.length; i++) {
 var buts = document.getElementsByClassName('addItem');
 for (i = 0; i < buts.length; i++) {
   buts[i].addEventListener('click', function() {
+    document.getElementById('total').style.display = "none";
+    document.getElementById('saleTax').style.display = "none";
     getSubtotal();
   });
 };

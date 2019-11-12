@@ -1,17 +1,9 @@
-document.getElementById('but1').addEventListener('click', function() {
-  getSubtotal();
-});
-document.getElementById('but2').addEventListener('click', function() {
-  getSubtotal();
-});
-document.getElementById('but3').addEventListener('click', function() {
-  getSubtotal();
-});
 var menuItems = [
   "bluenana",
   "grapple",
   "orangeagranate"
 ];
+
 var menuPrices = [
   12.25,
   5.99,
@@ -24,7 +16,14 @@ for (i = 0; i < menuItems.length; i++) {
     style: 'currency',
     currency: 'USD'
   }).format(menuPrices[i]);
-}
+};
+
+var buts = document.getElementsByClassName('addItem');
+for (i = 0; i < buts.length; i++) {
+  buts[i].addEventListener('click', function() {
+    getSubtotal();
+  });
+};
 
 function getSubtotal() {
   var vals = document.getElementsByClassName('inpt');

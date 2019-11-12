@@ -1,8 +1,9 @@
-.addItem{
+.addItem {
   padding: 8px;
   font-size: 10pt;
   width: 70px;
 }
+
 #finalize {
   padding: 4px;
   padding-top: 8px;
@@ -10,18 +11,22 @@
   font-size: 10pt;
   width: 70px;
 }
+
 .quant {
   width: 100px;
   min: 0;
   border: none;
   padding: 5px;
 }
-#total{
+
+#total {
   display: none;
 }
-#saleTax{
+
+#saleTax {
   display: none;
 }
-#subtotal{
+
+#subtotal {
   justify-content: center;
 }
